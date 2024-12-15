@@ -1,0 +1,201 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html {
+  /* 1rem = 10px */
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+
+#office {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 6vw;
+  margin-top: 20px;
+}
+
+
+/* ===========================================
+Hero and Service Section Start
+======================================= */
+
+
+
+
+.page1 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.vc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vc {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+
+.vc h1 {
+  font-family: canope;
+  font-size: 10rem;
+  text-align: center;
+  color: black;
+  letter-spacing: -5px;
+}
+
+.vc h4 {
+  font-size: 15px;
+}
+
+.vc #btn {
+  padding: 10px;
+  border: none;
+  outline: none;
+  height: 50px;
+  /* width: 100px; */
+  border-radius: 15px;
+  font-size: 20px;
+  margin-top: 20px;
+  background-color: black;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+/* ===========================================
+Responsive Codes 
+======================================= */
+
+  .vc h1 {
+    font-size: 6rem;
+  }
+
+  .vc h4 {
+    text-align: center;
+    font-size: 15px;
+  }
+
+
+  .page2content h1 {
+    font-size: 5rem;
+  }
+
+
+  .main.active3 {
+    visibility: hidden;
+  }
+
+  .main #house {
+    font-size: 30px;
+  }
+
+
+/* Below 560px  */
+@media (max-width: 35em) {
+ }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.image {
+  height: 50%;
+  width: 100%;
+}
+
+.image #img {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.con {
+  margin-top: 15px;
+  margin-left: 20px;
+  height: 50%;
+  width: 100%;
+}
+
+.main #house {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 6vw;
+}
+
+.con .i {
+  font-size: 30px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  margin-left: 230px;
+}
+
+.con i {
+  font-size: 30px;
+
+}
+
+.con h1 {
+  font-size: 20px;
+}
+
+.con h4 {
+  font-size: 15px;
+}
+
+.con .h4sec {
+  margin-top: 15px;
+}
